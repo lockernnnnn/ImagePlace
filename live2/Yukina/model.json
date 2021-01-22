@@ -1,0 +1,39 @@
+{
+    "posted": "Dreamer-Paul",
+    "physics": "physics.json",
+    "pose": "pose.json",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png"
+    ],
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "expressions": [
+        {
+            "file": "expressions/surprised01.exp.json", 
+            "name": "surprised01.exp.json"
+        }, 
+        {
+            "file": "expressions/sad01.exp.json", 
+            "name": "sad01.exp.json"
+        }, 
+        {
+            "file": "expressions/cry02.exp.json", 
+            "name": "cry02.exp.json"
+        }
+         
+      
+    ],
+    "motions": {
+        "tap_body": [
+            {"file": "motions/surprised01.mtn", "name": "motion_000"},
+            {"file": "motions/sad01.mtn", "name": "motion_001"},
+            {"file": "motions/cry02.mtn", "name": "motion_100"}
+           
+        ]
+    }
+}
